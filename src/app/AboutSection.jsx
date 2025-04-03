@@ -23,7 +23,7 @@ const AboutSection = () => {
         <div>
             <FadeInOnScroll>
              <div className='section_title'>
-                About.
+                About Me 
             </div>
             <div className={styles.about}>    
                 
@@ -71,25 +71,50 @@ const AboutSection = () => {
                                             <img src="/about/portfolio.png" width="60px" className={styles.whoami_icon}/>                                           
                                            
                                         </div>
-                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}></p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Power collaborator</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Open communicator</p> 
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Tenacious & solution driven contributor</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Trusted team resource</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Committed to excellence</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className={styles.gridItem}>
+            <div className={styles.gridItem}>
+                <div className={styles.whoami_box}>
+                    <h1 className={styles.section_title}><span className='blackfont'>Hobbies</span></h1>
+                    <div className={montserrat.className}>
+                        <div className={styles.whoami_body}>
+                            <div style={{ textAlign: 'center', marginTop: '-15px' }}>
+                                <img src="/outdoor.png" height="120px" length="120px" className={styles.whoami_icon} />
+                                <p style={{ marginBottom: '10px' }}>Outdoor Enthusiast</p> {/* Adjusted margin-bottom */}
+                                <div></div>
+                                <img src="/Hiking 2.png" height="110px" length="110px" className={styles.whoami_icon} />
+                                <p>Hiking Enthusiast</p>
+                                <div></div>
+                                <img src="/biking.png" height="100px" length="100px" className={styles.whoami_icon} />
+                                <p>Biking Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                        {/* <div className={styles.gridItem}>
                             <div className={styles.whoami_box_color}>
                             <img src={clientData.About.bg_image}
                                 alt={clientData.About.bg_image_alt}
                                 className={styles.whoami_image} />
                             </div>
                             <div className={`${styles.textOverlay} ${montserrat.className}`}>
-                                {/* <img src="/about/speaker.png" width="60px" /> */}
+                                {/* <img src="/about/speaker.png" width="60px" />} 
                                 
                               <p style={{marginBottom: '20px'}}>Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod.</p>
                               <p>Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo.</p>
                             </div>
-                        </div>
+                        </div> */}
                         
                         <div className={styles.gridItem_c}>
                         <div className={styles.whoami_box}>
@@ -99,8 +124,9 @@ const AboutSection = () => {
                                         <div className={montserrat.className}>
                                         <div className={styles.body}>
                                             <img src="/about/graduationcap.png" width="60px" className={styles.whoami_icon}/>
-                                            <p style={{textAlign: 'center', lineHeight: 2.2}}>Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus.</p>
-                                            <p></p>
+                                            <p style={{textAlign: 'center', lineHeight: 2.2}}>Development: To align my experience and skillset with opportunities that encompass my guiding principles and key values.</p>
+                                            <p>Forge Relationships: Continually foster strong and trusted relationships with team members, peers and stakeholders.</p>
+                                            <p>Empowerment: Empower myself and others to be the best version of themselves.</p>
                                         </div>
                                     </div>
                                   

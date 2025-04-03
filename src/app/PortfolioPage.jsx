@@ -17,6 +17,8 @@ import FrameworkSection from './FrameworkSection';
 import EducationSection from './EducationSection';
 import ExperienceSection from './ExperienceSection';
 import JoblistComponent from './JoblistComponent';
+import ProjectsSection from './ProjectsSection';
+import CareerHighlightsSection from './CareerHighlightsSection';
 import AssociationsSection from './AssociationsSection';
 import LaunchedPrograms from './LaunchedPrograms';
 import PublicSpeakingSection from './PublicSpeakingSection';
@@ -37,9 +39,11 @@ const PortfolioPage = () => {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
   const buildingteamsRef = useRef(null);
+  const careerhighlightsRef = useRef(null);
   const frameworkRef = useRef(null);
   const educationRef = useRef(null);
   const experienceRef = useRef(null);
+  const projectsRef = useRef(null);
   const speakingRef = useRef(null);
   const timelineRef = useRef(null);
   const recommendationsRef = useRef(null);
@@ -98,10 +102,15 @@ const PortfolioPage = () => {
         { id: 24, title: 'Management & Experience Summary', ref: buildingteamsRefs.managementsummaryRef },
       ],
     },
+    // {
+    //   id: 3,
+    //   title: 'Author',
+    //   ref: authorRef,
+    // },
     {
-      id: 3,
-      title: 'Author',
-      ref: authorRef,
+      id : 3,
+      title: 'Career Highlights',
+      ref: careerhighlightsRef,
     },
     {
       id: 5,
@@ -121,13 +130,18 @@ const PortfolioPage = () => {
     },
     {
       id: 7,
-      title: 'Professional Associations',
-      ref: professionalAssociationsRef,
-      subMenuItems: [
-        { id: 71, title: 'Public Speaking Engagements', ref: speakingRef },
-        { id: 72, title: 'Associations', ref: experienceRefs.associationsRef },
-      ]
+      title: 'Projects',
+      ref: projectsRef,
     },
+    // {
+    //   id: 7,
+    //   title: 'Professional Associations',
+    //   ref: professionalAssociationsRef,
+    //   subMenuItems: [
+    //     { id: 71, title: 'Public Speaking Engagements', ref: speakingRef },
+    //     { id: 72, title: 'Associations', ref: experienceRefs.associationsRef },
+    //   ]
+    // },
     {
       id: 8,
       title: 'Timeline',
@@ -246,12 +260,15 @@ const PortfolioPage = () => {
         <section ref={buildingteamsRef}>
           <BuildTeamSection refs={buildingteamsRefs}/>
         </section>
-        <section ref={authorRef}>
+        {/* <section ref={authorRef}>
           <AuthorSection refs={authorRef}/>
-        </section>
+        </section> */}
         {/* <section ref={frameworkRef}>
           <FrameworkSection refs={frameworkRefs}/>
         </section> */}
+        <section ref={careerhighlightsRef}>
+          <CareerHighlightsSection refs={careerhighlightsRef}/>
+        </section>        
         <section ref={educationRef}>
           <EducationSection/>
         </section>
@@ -261,14 +278,17 @@ const PortfolioPage = () => {
         <section ref={experienceRefs.managementexperiencesummaryRef}>
           <JoblistComponent />
         </section>
-        <div className='section_title' ref={professionalAssociationsRef}>professional ASSOCIATIONS.</div>
+        <section ref={projectsRef}> {/* Add this section for Projects */}
+          <ProjectsSection />
+        </section>
+        {/* <div className='section_title' ref={professionalAssociationsRef}>professional ASSOCIATIONS.</div> */}
         {/* <h1 style={{marginTop: '10%'}} ref={professionalAssociationsRef}>professional ASSOCIATIONS.</h1> */}
-        <section ref={speakingRef}>
+        {/* <section ref={speakingRef}>
           <PublicSpeakingSection isMediumScreen={isMediumScreen} isSmallScreen={isSmallScreen}/>
-        </section>
-        <section>
+        </section> */}
+        {/* <section>
           <AssociationsSection refs={experienceRefs}/>
-        </section>
+        </section> */}
         <section ref={timelineRef}>
           <TimelineSection/>
         </section>

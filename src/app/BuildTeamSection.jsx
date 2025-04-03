@@ -30,58 +30,58 @@ const BuildTeamSection = ({refs}) => {
                 <div className={styles.gridContainer_tools}>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/google_analytics_logo.png" width='58px'/>
+                            <img src="/tools_logo/Office 365.png" width='58px'/>
                         </div>
-                        <div className={styles.title_tools}>GOOGLE ANALYTICS</div>
+                        <div className={styles.title_tools}>Microsoft 365 Suite</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/semrush_logo.png" width='80px'/>
+                            <img src="/tools_logo/Excel logo.png" width='80px'/>
                         </div>
-                        <div className={styles.title_tools}>SEMRUSH</div>
+                        <div className={styles.title_tools}>Excel</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/conductor_logo.png" width='80px'/>
+                            <img src="/tools_logo/Sharepoint logo.png" width='50px'/>
                         </div>
-                        <div className={styles.title_tools}>conductor</div>
+                        <div className={styles.title_tools}>SharePoint</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/HOOTSUITE_logo.png" width='62px'/>
+                            <img src="/tools_logo/Airtable.png" width='62px'/>
                         </div>
-                        <div className={styles.title_tools}>HOOTSUITE</div>
+                        <div className={styles.title_tools}>AirTable</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/bookbolt_logo.png" width='65px'/>
+                            <img src="/tools_logo/Smartsheetlogo.jpg" width='50px'/>
                         </div>
-                        <div className={styles.title_tools}>Bookbolt</div>
+                        <div className={styles.title_tools}>Smartsheet</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Brandwatch_Logo.png" width='80px'/>
+                            <img src="/tools_logo/AdobeAcrobatlogo.png" width='50px'/>
                         </div>
-                        <div className={styles.title_tools}>BRANDWATCH</div>
+                        <div className={styles.title_tools}>Adobe Acrobat</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/sprinklr_logo.png" width='80px'/>
+                            <img src="/tools_logo/Gapps logo.png" width='60px'/>
                         </div>
-                        <div className={styles.title_tools}>SPRINKLER</div>
+                        <div className={styles.title_tools}>Google Apps</div>
                     </div>
-                    <div className={styles.gridItem_tools}>
+                    {/* <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
                             <img src="/tools_logo/wordpress_logo.png" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>WORDPRESS</div>
-                    </div>
+                    </div> */}
                 </div>       
                 </div>
             </div>
 
                 {/***************** MANAGEMENT SUMMARY ****************/}
-                <div ref={managementsummaryRef}>
+                {/* <div ref={managementsummaryRef}>
                 <div className={`${styles.gridContainer} ${styles.management_summary}`}>
                         <div className='redborder'>
                             <div className='redborder_title'>
@@ -160,7 +160,7 @@ const BuildTeamSection = ({refs}) => {
                         <div className={styles.gridItem_red}></div>
                         </div>
                 </div>
-                </div>
+                </div> */}
                 {/****************  LAUNCHED PROGRAMS ****************/}
                 < LaunchedPrograms />
         </div>   

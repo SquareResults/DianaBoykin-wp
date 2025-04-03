@@ -16,31 +16,31 @@ const montserrat = Montserrat({
 
 const PublicSpeakingSection = ({isMediumScreen, isSmallScreen}) => {
     const carouselItems = [
-        {
-          backgroundImage: 'url("https://golocal24.com/wp-content/uploads/2014/12/BIAKelsey-Logo-1024x393.png")',
-          company: '2011 and 2015',
-          text: 'BIA/Kelsey Conference Panelist',
-          imageStyle: { paddingTop: '10%' }
-        },
-        {
-          backgroundImage: 'url("https://resource.localogy.com/hubfs/Localogy%20Excellence%20Awards%20%283%29.png")',
-          company: 'speaker 2015',
-          text: 'Localogy (formerly local search association)',
-          imageStyle: {backgroundSize: 'cover'},
-        },
-        {
-            backgroundImage: 'url("https://s3-prod.adage.com/s3fs-public/styles/width_660/public/20231211_BobLiodice-ANA-01112_3x2.jpg")',
-            company: 'Telephone Directory Committee',
-            text: 'Association of National Advertisers ',
-            imageStyle: {backgroundSize: 'cover'},
-          },
-          {
-            backgroundImage: 'url("https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
-            company: '',
-            text: 'Association of Directory Marketing',
-            imageStyle: {backgroundSize: 'cover'},
-          }
-        // Add more items as needed
+        // {
+        //   backgroundImage: 'url("https://golocal24.com/wp-content/uploads/2014/12/BIAKelsey-Logo-1024x393.png")',
+        //   company: '2011 and 2015',
+        //   text: 'BIA/Kelsey Conference Panelist',
+        //   imageStyle: { paddingTop: '10%' }
+        // },
+        // {
+        //   backgroundImage: 'url("https://resource.localogy.com/hubfs/Localogy%20Excellence%20Awards%20%283%29.png")',
+        //   company: 'speaker 2015',
+        //   text: 'Localogy (formerly local search association)',
+        //   imageStyle: {backgroundSize: 'cover'},
+        // },
+        // {
+        //     backgroundImage: 'url("https://s3-prod.adage.com/s3fs-public/styles/width_660/public/20231211_BobLiodice-ANA-01112_3x2.jpg")',
+        //     company: 'Telephone Directory Committee',
+        //     text: 'Association of National Advertisers ',
+        //     imageStyle: {backgroundSize: 'cover'},
+        //   },
+        //   {
+        //     backgroundImage: 'url("https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+        //     company: '',
+        //     text: 'Association of Directory Marketing',
+        //     imageStyle: {backgroundSize: 'cover'},
+        //   }
+        // Add more items as needed 
       ];
     
 

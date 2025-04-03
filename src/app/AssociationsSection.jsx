@@ -109,7 +109,7 @@ const AssociationsSection = ({refs}) => {
                         </div>
                 </div>
             </div>
-        </div>   
+        </div> 
     );
 }
 

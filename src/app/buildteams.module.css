@@ -30,6 +30,7 @@
 
 .circle_icon img {
   /* filter: grayscale(); */
+  opacity: 0.7
 }
 
   .gridContainer_tools {

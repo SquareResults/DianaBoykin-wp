@@ -22,8 +22,7 @@ const RedBlackBoxes = () => {
                             <div className={styles.line}></div>
                             <div className={styles.description}>
                                 <div className={montserrat.className}>
-                                <p>Drive generation of $300 million annually through direct listing management solutions.</p>
-                                <p>Ensure location information is accurate and online profiles contain robust SEO for search engines, mobile apps, and mobile navigation.</p>
+                                <p>Drove partner readiness for 5 key global partners and 150 channel partners enabling go to market strategies for Intel Xeon product launches.</p>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +35,7 @@ const RedBlackBoxes = () => {
                             <div className={styles.line}></div>
                             <div className={styles.description}>
                                 <div className={montserrat.className}>
-                                Raised consumer awareness 25% by defining audience personas and aligning data-driven organic content plans with corporate marketing initiatives.
+                                Produced 12 partner launch playbooks within 3 years that resulted in a 20% annual increase in partner participation and co-marketing opportunities for 4 Xeon product portfolio launches.
                                 </div>
                             </div>
                         </div>
@@ -49,12 +48,12 @@ const RedBlackBoxes = () => {
                             <div className={styles.line}></div>
                             <div className={styles.description}>
                                 <div className={montserrat.className}>
-                                Supported 300% growth in employee social media participation following development of channels connecting employees and leadership via executive videos and Facebook groups for dealers.
+                                Developed an online partner marketing hub as a source to share key messaging, strategy, and activation plans with partner leads to enhance partner alignment and increase employee access to actionable strategic by 200% resources.
                                 </div>
                             </div>
                         </div>
                     </div>   
-                    <div className={styles.backgrid_rb}>
+                    {/*<div className={styles.backgrid_rb}>
                         <div className={styles.gridItem_b}>
                             <div className={styles.title}>
                             Boosting Views & Revenue: Dynamic Blog Strategy
@@ -66,7 +65,7 @@ const RedBlackBoxes = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>    
+                    </div>*/}    
                 </div>
             </div>
         </div>

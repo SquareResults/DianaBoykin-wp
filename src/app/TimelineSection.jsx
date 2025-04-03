@@ -11,33 +11,66 @@ const montserrat = Montserrat({
 const TimelineSection = () => {
   const timelineData = [
     {
-      company: 'PACIFIC LUTHERAN UNIVERSITY',
-      location: 'Seattle, WA',
+      jobtitle: 'Bachelor of Science (B.S.), Mass Communications',
+      company: 'Minnesota State University',
+      location: 'Moorhead, Minnesota',
     },
     {
-      jobtitle: 'COMMODITY MANAGER, PROCUREMENT',
-      company: 'CENTURY LINK',
-      company_sub: 'FORMERLY Qwest or US West',
-      dates: '1998 - 2000',
+      jobtitle: 'Marketing Manager, Business Development ',
+      company: 'Weber Shandwick Worldwide',
+      location: 'Minneapolis, MN',
     },
     {
-      jobtitle: 'Vice President Operations',
-      company: 'Priority Staffing',
-      location: 'Tempe, Arizona',
-      dates: '2000 - 2001',
+      jobtitle: 'Special Events Planner',
+      company: 'Minnesota Orchestra',
+      location: 'Minneapolis, MN',
     },
     {
-      jobtitle: 'Bachelor of Arts, LIBERAL STUDIES',
-      company: 'UNIVERSITY OF WASHINGTON',
-      location: 'Seattle, WA',
+      jobtitle: 'Web Content Manager',
+      company: 'Rockford Corporation',
+      location: 'Tempe, AZ',
     },
     {
-      jobtitle: 'Instructor and Curriculum Author',
-      company: 'Self-Employment Loan Fund',
-      company_sub: 'NON-PROFIT',
-      dates: '2001 - 2007',
+      jobtitle: 'Communications and Brand Manager',
+      company: 'Messerli & Kramer, P.A',
+      location: 'Minneapolis, MN',
     },
     {
+      jobtitle: 'Seller Risk Analyst',
+      company: 'PayPal',
+      location: 'Chandler, AZ',
+    },
+    {
+      jobtitle: 'Marketing Operations Manager, Project Manager',
+      company: 'Vertical Communications, Inc.',
+      dates: 'Dec 2011 - Feb 2017',
+      location: 'Phoenix, AZ',
+    },
+    {
+      jobtitle: 'Marketing Consultant, Project Management',
+      company: 'Self-Employed, TN Marketing',
+      dates: 'Mar 2011 - Dec 2019',
+      location: 'Chandler, AZ',
+    },
+    {
+      jobtitle: 'Marketing Program Manager, Campaign Strategy',
+      company: 'Intel Corporation',
+      dates: 'Oct 2019 - Apr 2021',
+      location: 'Chandler, AZ',
+    },
+    {
+      jobtitle: 'Marketing Program Manager, Competitive Strategy',
+      company: 'Intel Corporation',
+      dates: 'May 2021 - Jul 2022',
+      location: 'Chandler, AZ',
+    },
+    {
+      jobtitle: 'Marketing Program Manager, Partner Integration',
+      company: 'Intel Corporation',
+      dates: 'Aug 2022 - Nov 2024',
+      location: 'Chandler, AZ',
+    },
+    /*{
       jobtitle: 'Director of Yellow Pages Advertising',
       company: 'U-HAUL INTERNATIONAL',
       location: 'Phoenix, Arizona',
@@ -81,13 +114,13 @@ const TimelineSection = () => {
       company: 'U-HAUL INTERNATIONAL',
       location: 'Phoenix, Arizona',
       dates: 'Nov 2023 - Present',
-    },
+    },*/
   ];
     
 
     return (
         <div>
-            <div className='section_title'>Timeline.</div>
+            <div className='section_title'>Timeline</div>
             
                 <div className={styles.timeline}>
                 {timelineData.map((item, index) => (

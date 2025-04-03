@@ -98,7 +98,7 @@ const SkillsetSection = ({refs}) => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.backgrid}>
+                { /*<div className={styles.backgrid}>
                     <div className={styles.gridItem_b}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
@@ -107,8 +107,8 @@ const SkillsetSection = ({refs}) => {
                             <p>{clientData.Skillset.grid8_txt}</p>
                         </div>
                     </div>
-                </div>
-                <div className={styles.backgrid}>
+                </div> */}
+                {/*<div className={styles.backgrid}>
                     <div className={styles.gridItem_r}>
                         <div className={styles.text}>
                             <div className={styles.icons}>
@@ -117,7 +117,7 @@ const SkillsetSection = ({refs}) => {
                             <p>{clientData.Skillset.grid9_txt}</p>
                         </div>
                     </div>
-                </div>
+                </div>*/}
                 </div>
                 
             </div>

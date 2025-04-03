@@ -12,100 +12,67 @@ const JoblistComponent = () => {
 
     const jobData = [
         {
-            img_logo: "/uhaul_logo.png",
-            img_alt: "U-Haul International Logo",
-            img_style:  '',
-            jobtitle: "DIRECTOR of social media marketing",
-            company: "u-haul",
-            dates: "2016 - PRESENT",
+            img_logo: "/Intellogo.png",
+            img_alt: "Intel Logo",
+            img_style:  '{"paddingTop": "0.5%"}',
+            jobtitle: "Marketing Program Manager, Partner Integration",
+            company: "Intel Corporation",
+            dates: "August 2022 - November 2024",
             job_description: [
-                `Lead and coordinate team of Sr. Marketers in strategy and execution across all social media
-                channels to drive traffic and conversions to uhaul.com and over 21,000 brick and mortar stores
-                which include, paid search, Google shopping (product listing ads and local inventory ads),
-                retargeting, digital display (programmatic, native and video), and paid social advertising
-                (Facebook, Instagram, Linkedin, Twitter and Pinterest).`,
-                `Develop strategy and counsel executives on crisis response situations on social media.`,
-                `Lead the social marketing strategy for U-Haul and its affiliates through established policy,
-                training and reporting.`,
-                `Lead social, digital, and content marketing campaigns for 25+ business units that increased
-                sales, share of voice and positive sentiment for U-Haul and its subsidiaries`,
-                `Relationship building with industry leaders and vendors`,
-                `Direct the creation and management of 21,000+ profile pages on (but not limited to) Google,
-                Bing, LinkedIn, Facebook, Twitter, Pinterest, Snapchat, Instagram and other review sites`,
-                `Collaborate with division Directors to monitor all interactive marketing campaigns and
-                collaborate with Research division on strategic planning, advertising plan development and
-                monitoring`,
-                `Manage social online presence and reputation for 21,000 locations throughout North America.`,
-                `Develop strategy and counsel executives on crisis response situations on social media.`,
-                `Develop and maintain content marketing strategy for company blogs which has resulted in
-                increased organic views and revenue.`
+                `Scaled a paid content syndication partner program across 5 global markets achieving 100% of target leads in the US market.`,
+                `Led partner readiness for 5 key global partners and 150 channel partners enabling go to market strategies for Intel Xeon product launches.`,
+                `Produced 12 partner launch playbooks that drove a 20% increase in partner participation and co-marketing opportunities year over year for 4 Xeon product portfolio launches.`,
+                `Developed an online partner marketing hub to share key messaging, marketing strategy, and activation plans with internal partner teams to drive partner alignment and increase employee access to actionable resources by 200%.`
             ],
             skillset: "no",
             skill_title: "",
             listofskills: ["", ""]
         },
         {
-            img_logo: "/uhaul_logo.png",
-            img_alt: "U-Haul International Logo",
+            img_logo: "/Intellogo.png",
+            img_alt: "Intel Logo",
             img_style:  '{"paddingTop": "5%"}',
-            jobtitle: "DIRECTOR LISTINGS MANAGEMENT AND LOCAL SEO",
-            company: "u-haul",
-            dates: "2009 - PRESENT",
+            jobtitle: "Marketing Program Manager, Competitive Strategy",
+            company: "Intel Corporation",
+            dates: "May 2021 - July 2022",
             job_description: [
-                `Develop, implement, and manage Local Search Program`,
-                `Accountable for local listing and mapping optimization`,
-                `Manage team of auditors in research, local listing optimization, analysis, and reporting
-                Coordinate with web and digital teams in customer experience, enhancements, SEO and
-                analysis of uhaul.com`,
-                `Successfully transitioned U-Haul International’s 21,000 locations from print Yellow Pages
-                advertising to interactive mobile and online profiles for marketing and advertising
-                Established initial digital marketing contacts with top search engines, i.e. Google, Yahoo, Bing
-                other key online publishers and data aggregators`,
-                `Positioned U-Haul as a “trusted data provider” with search engines and aggregators to submit
-                company listings directly for publication`,
-                `Established 411 verification program to ensure listing accuracy and availability on directory
-                assistance on apps and mobile devices and other digital devices`
+                `Created three competitive response microsites to counter competitor threats, enabling sales and social teams to maintain share of voice and effectively challenge competitive messaging.`,
+                `Reduced competitive response agility by 2-3 weeks through comprehensive competitive research tools that identified and tracked 4 key competitors, providing competitive landscape insights and enabling proactive market responses.`
             ],
             skillset: "no",
             skill_title: "",
             listofskills: ["", ""]
         },
         {
-            img_logo: "/uhaul_logo.png",
-            img_alt: "U-Haul International Logo",
+            img_logo: "/Intellogo.png",
+            img_alt: "Intel Logo",
             img_style:  '{"paddingTop": "5%"}',
-            jobtitle: "Director OF YELLOW PAGES ADVERTISING",
-            company: "U-HAUL INTERNATIONAL",
-            dates: "2002 – 2009",
+            jobtitle: "Marketing Program Manager, Campaign Strategy",
+            company: "Intel Corporation",
+            dates: "October 2019 – April 2021",
             job_description: [
-                `Provided strategic oversight and management of the $50M+ print advertising program`,
-                `Worked successfully with the CEO, Board of Directors, Marketing Company Presidents, and
-                executive teams to achieve a successful print advertising program`,
-                `Directed 15 member production team of analysts, programmers, auditors, typesetters, graphic
-                artists, telephone management, White Pages processors, and administrative staff in the
-                production of 40,000 Yellow Page display advertisements annually`,
-                `Developed and implemented YP Directory advertising policies for U-Haul International`,
-                `Negotiated multi-year advertising plans with U.S. and Canadian digital and print publishers,
-                resulting in increased visibility and media cost savings between $5M-$10M annually`,
-                `Re-established key industry and publisher relationships`
+                `Managed a cross-organizational edge to cloud digital campaign reaching a 20% impression rate across targeted digital channels.`,
+                `Delivered a supplemental media campaign enhancing product visibility and supporting the Intel Xeon brand for 3rd Gen Xeon Scalable processors.`
             ],
             skillset: "no",
             skill_title: "",
             listofskills: ["", ""]
         },
         {
-            img_logo: "/focused_financial.JPG",
-            img_alt: "Focused Financial Coach Logo",
-            img_style:  '{"paddingTop": "10%"}',
-            jobtitle: "Financial Coach",
-            company: "Focused Financial Coach",
-            dates: "2020 - PRESENT",
+            img_logo: "/TN.jpg",
+            img_alt: "TN",
+            img_style:  '{"paddingTop": "5%"}',
+            jobtitle: "Marketing Consultant, Project Management",
+            company: "Self-Employed, TN Marketing",
+            dates: "March 2017 - December 2019",
             job_description: [
-                `As financial coaches, we are here to help you create goals and actually stick with them.`
+                `Drove project management operations and ensured client satisfaction by defining and communicating expectations and success criteria while managing timelines, dependencies, issue resolution, and asset delivery across internal teams, clients, and third-party partners.`,
+                `Managed client operations and project management for a San Francisco-based custom web application company maintaining 100% customer retention.`,
+                `Managed live-stream talent and community engagement for a Minneapolis-based marketing and media company with consistent increases across social platforms.`
             ],
-            skillset: "yes",
-            skill_title: "Skills",
-            listofskills: [ "Analytical Skills", "Data Analysis", "Strategic Planning"]
+            skillset: "no",
+            skill_title: "",
+            listofskills: [ "", "", ""]
         },
         // {
         //     img_logo: "/411_locals.png",
@@ -128,89 +95,146 @@ const JoblistComponent = () => {
         //     listofskills: ["Local Search", "Google Analytics", "B2B Marketing Strategy"]
         // },
         {
-            img_logo: "/je_solutions.jpg",
-            img_alt: "J and E Solutions Logo",
+            img_logo: "/Vert.jpg",
+            img_alt: "Vertical Communications",
             img_style:  '{"paddingTop": "5%"}',
-            jobtitle: "Marketing And Advertising Consultant",
-            company: "J&E Solutions",
-            dates: "2014 - present",
+            jobtitle: "Marketing Operations Manager, Project Manager",
+            company: "Vertical Communications, Inc.",
+            dates: "December 2011 - February 2017",
             job_description: [
-                `If your business marketing reality is not living up to expectations, it might be time to leverage our business and marketing consulting services. Give us a call if you have big marketing needs without a big marketing budget.Your company is small to mid-size but is growing rapidly. You have people in place on your marketing team but they don’t have the experience to take your marketing strategy to the next level. It's time to get a coach/consultant to help you move forward.`
+                `Managed all marketing programs, special projects, industry events and web-related initiatives to drive audience engagement and increase brand visibility.`,
+                `Managed the successful launch of an online product knowledge base and sales training hub, increasing accessibility to critical resources.`,
+                `Led the re-launch of a dealer portal and company intranet, improving user experience and engagement within one year.`,
+                `Drove project completion and rollout of company’s rebranding through a newly designed website and marketing and sales materials.`
             ],
-            skillset: "yes",
-            skill_title: "skills",
-            listofskills: ["Digital Marketing", "Local Search", "Marketing Strategy", "Leadership",
-                "Advertising", "Business Development", "Online Advertising", "Search Engine Optimization (SEO)",
-                "Google Analytics", "Strategic Planning"
+            skillset: "no",
+            skill_title: "",
+            listofskills: [""
         
             ]
         },
-        {
-            img_logo: "/instructor_logo.png",
-            img_alt: "Loan Fund Logo",
-            img_style:  '{"paddingTop": "12%", "width": "150px"}',
-            jobtitle: "Instructor/Curriculum Author",
-            company: "Self-Employment Loan Fund (Non-Profit)",
-            dates: "2001 – 2007",
-            job_description: [
-                `Redesigned and implemented a 12-week business plan curriculum approved for
-                accreditation in Maricopa County Community College District`,
-                `Instructed adult learners in business plan development; emphasis on market analysis,
-                bookkeeping, financial projections, product pricing, distribution and operations. 40% established
-                business success rate.`,
-                `Provided instruction and mentoring in Small Business Start-Up and Management.`,
-                `Provided hands on approach to learning about starting and operating a small business.`
-            ],
-            skillset: "no",
-            skill_title: "",
-            listofskills: ["", ""]
-        },
-        {
-            img_logo: "/priority_staffing.png",
-            img_alt: "Priority Staffing Logo",
-            img_style:  '{"paddingTop": "11%"}',
-            jobtitle: "VP OPERATIONS",
-            company: "PRIORITY STAFFING",
-            dates: "2000 – 2001",
-            job_description: [
-                `Engineered Marketing, Sales, Business Development, and Account Management transformation to redefine brand strategy.`,
-                `Efforts yielded $20.3 million increase in net income.`
-            ],
-            skillset: "no",
-            skill_title: "",
-            listofskills: ["", ""]
-        },
-        {
-            img_logo: "/CenturyLink_logo.png",
-            img_alt: "CenturyLink Logo",
-            img_style:  '{"paddingTop": "15%"}',
-            jobtitle: "Commodity Manager",
-            company: "centurylink (formerly Qwest Communications) ",
-            dates: "1998 - 2000",
-            job_description: [
-                `Strategic buyer of services, with a documented record of leveraging purchasing power to
-                facilitate organizational objectives.`,
-                `Managed new and ongoing purchasing agreements with an annual spend of over $100
-                million through contract negotiations, performance evaluations and site visits for the travel, training
-                services, and promotional items/branded merchandise programs`,
-                `Developed and implemented corporate communication strategy for Travel program to
-                54,000 employees in 14-state territory`,
-                `Negotiated $2M in cost savings and cost avoidances in employee travel program`,
-                `Negotiated multi-year contract for Management Diversity Training resulted in a 20% savings.`,
-                `Negotiated $5.5M subcontracting commitments for technician training services`,
-                `Reduced individual employee training fees by approximately 11%`,
-                `Negotiated a multi-year contract for branded services with a 7% savings from unit cost
-                reductions, rebate plan, and volume incentives`,
-                `Negotiated a first-time subcontracting plan with associated financial penalties to primary
-                vendor in lieu of meeting requirements`,
-                `Successfully implemented first-time Minority/Women-owned Business Enterprise (M/WBE)
-                subcontracting plan resulting in increased corporate spending with minority travel service providers
-                by 10%.`
-            ],
-            skillset: "no",
-            skill_title: "",
-            listofskills: ["", ""]
-        },
+        // {
+        //     img_logo: "/instructor_logo.png",
+        //     img_alt: "Loan Fund Logo",
+        //     img_style:  '{"paddingTop": "12%", "width": "150px"}',
+        //     jobtitle: "Seller Risk Analyst",
+        //     company: "PayPal",
+        //     dates: "",
+        //     job_description: [
+                
+        //     ],
+        //     skillset: "no",
+        //     skill_title: "",
+        //     listofskills: ["", ""]
+        // },
+        // {
+        //     img_logo: "/priority_staffing.png",
+        //     img_alt: "Priority Staffing Logo",
+        //     img_style:  '{"paddingTop": "11%"}',
+        //     jobtitle: "Communications and Brand Manager",
+        //     company: "Messerli & Kramer, P.A.",
+        //     dates: "",
+        //     job_description: [
+        //         //`Engineered Marketing, Sales, Business Development, and Account Management transformation to redefine brand strategy.`,
+        //         //`Efforts yielded $20.3 million increase in net income.`
+        //     ],
+        //     skillset: "no",
+        //     skill_title: "",
+        //     listofskills: ["", ""]
+        // },
+        // {
+        //     img_logo: "/CenturyLink_logo.png",
+        //     img_alt: "CenturyLink Logo",
+        //     img_style:  '{"paddingTop": "15%"}',
+        //     jobtitle: "Web Content Manager",
+        //     company: "Rockford Corporation",
+        //     dates: "",
+        //     job_description: [
+        //         //`Strategic buyer of services, with a documented record of leveraging purchasing power to
+        //         //facilitate organizational objectives.`,
+        //         //`Managed new and ongoing purchasing agreements with an annual spend of over $100
+        //         //million through contract negotiations, performance evaluations and site visits for the travel, training
+        //         //services, and promotional items/branded merchandise programs`,
+        //         //`Developed and implemented corporate communication strategy for Travel program to
+        //         //54,000 employees in 14-state territory`,
+        //         //`Negotiated $2M in cost savings and cost avoidances in employee travel program`,
+        //         //`Negotiated multi-year contract for Management Diversity Training resulted in a 20% savings.`,
+        //         //`Negotiated $5.5M subcontracting commitments for technician training services`,
+        //         //`Reduced individual employee training fees by approximately 11%`,
+        //         //`Negotiated a multi-year contract for branded services with a 7% savings from unit cost
+        //         //reductions, rebate plan, and volume incentives`,
+        //         //`Negotiated a first-time subcontracting plan with associated financial penalties to primary
+        //         //vendor in lieu of meeting requirements`,
+        //         //`Successfully implemented first-time Minority/Women-owned Business Enterprise (M/WBE)
+        //         //subcontracting plan resulting in increased corporate spending with minority travel service providers
+        //         //by 10%.`
+        //     ],
+        //     skillset: "no",
+        //     skill_title: "",
+        //     listofskills: ["", ""]
+        // },
+        // {
+        //     img_logo: "/CenturyLink_logo.png",
+        //     img_alt: "CenturyLink Logo",
+        //     img_style:  '{"paddingTop": "15%"}',
+        //     jobtitle: "Special Events Planner",
+        //     company: "Minnesota Orchestra",
+        //     dates: "",
+        //     job_description: [
+        //         //`Strategic buyer of services, with a documented record of leveraging purchasing power to
+        //         //facilitate organizational objectives.`,
+        //         //`Managed new and ongoing purchasing agreements with an annual spend of over $100
+        //         //million through contract negotiations, performance evaluations and site visits for the travel, training
+        //         //services, and promotional items/branded merchandise programs`,
+        //         //`Developed and implemented corporate communication strategy for Travel program to
+        //         //54,000 employees in 14-state territory`,
+        //         //`Negotiated $2M in cost savings and cost avoidances in employee travel program`,
+        //         //`Negotiated multi-year contract for Management Diversity Training resulted in a 20% savings.`,
+        //         //`Negotiated $5.5M subcontracting commitments for technician training services`,
+        //         //`Reduced individual employee training fees by approximately 11%`,
+        //         //`Negotiated a multi-year contract for branded services with a 7% savings from unit cost
+        //         //reductions, rebate plan, and volume incentives`,
+        //         //`Negotiated a first-time subcontracting plan with associated financial penalties to primary
+        //         //vendor in lieu of meeting requirements`,
+        //         //`Successfully implemented first-time Minority/Women-owned Business Enterprise (M/WBE)
+        //         //subcontracting plan resulting in increased corporate spending with minority travel service providers
+        //         //by 10%.`
+        //     ],
+        //     skillset: "no",
+        //     skill_title: "",
+        //     listofskills: ["", ""]
+        // },
+        // {
+        //     img_logo: "/CenturyLink_logo.png",
+        //     img_alt: "CenturyLink Logo",
+        //     img_style:  '{"paddingTop": "15%"}',
+        //     jobtitle: "Marketing Manager, Business Development",
+        //     company: "Weber Shandwick Worldwide",
+        //     dates: "",
+        //     job_description: [
+        //         //`Strategic buyer of services, with a documented record of leveraging purchasing power to
+        //         //facilitate organizational objectives.`,
+        //         //`Managed new and ongoing purchasing agreements with an annual spend of over $100
+        //         //million through contract negotiations, performance evaluations and site visits for the travel, training
+        //         //services, and promotional items/branded merchandise programs`,
+        //         //`Developed and implemented corporate communication strategy for Travel program to
+        //         //54,000 employees in 14-state territory`,
+        //         //`Negotiated $2M in cost savings and cost avoidances in employee travel program`,
+        //         //`Negotiated multi-year contract for Management Diversity Training resulted in a 20% savings.`,
+        //         //`Negotiated $5.5M subcontracting commitments for technician training services`,
+        //         //`Reduced individual employee training fees by approximately 11%`,
+        //         //`Negotiated a multi-year contract for branded services with a 7% savings from unit cost
+        //         //reductions, rebate plan, and volume incentives`,
+        //         //`Negotiated a first-time subcontracting plan with associated financial penalties to primary
+        //         //vendor in lieu of meeting requirements`,
+        //         //`Successfully implemented first-time Minority/Women-owned Business Enterprise (M/WBE)
+        //         //subcontracting plan resulting in increased corporate spending with minority travel service providers
+        //         //by 10%.`
+        //     ],
+        //     skillset: "no",
+        //     skill_title: "",
+        //     listofskills: ["", ""]
+        // },
 
     ]
 

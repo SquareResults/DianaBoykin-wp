@@ -1,35 +1,37 @@
 {
     "PortfolioPage": {
-        "logo": "./yn_logo.png",
+        "logo": "/icons/Favicon.png",
         "logo_alt": "Your Name Web Portfolio Logo",
-        "linkedIn": "https://www.linkedin.com/",
+        "linkedIn": "https://www.linkedin.com/in/dianakboykin/",
         "facebook": "https://www.facebook.com/",
         "instagram": "https://www.instagram.com/",
         "twitter": "https://twitter.com/",
-        "email": "yourname@email.com",
-        "phone": "222-333-4567",
-        "resume": "./YourResume.pdf"
+        "email": "dianakboykin@gmail.com",
+        "phone": "612-296-0470",
+        "resume": "/DB_Resume.pdf"
     },
     "Home": {
-        "firstName": "Your",
-        "lastName": "Name",
+        "firstName": "Diana",
+        "lastName": "Boykin",
         "titles": [
-            "Your Job Titles",
-            "Your Certifications",
-            "Your Branding"
+            "Marketing Program Manager",
+            "Partner Marketing Program Manager",
+            "B2B Campaign Marketing Manager",
+            "Project Management",
+            "Digital Marketing Manager"
         ]
     },
     "About": {
-        "image": "./portfolio_picture.png",
+        "image": "./about/Diana.jpg",
         "image_alt": "Your Name Portfolio Photo",
-        "title": "YOUR TITLE",
+        "title": "INTRODUCTION",
         "title_sub": "Optional Subtitle",
         "body": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod. Molestie at elementum eu facilisis sed odio morbi.",
-            "Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. Porttitor eget dolor morbi non arcu."
+            "I am a passionate and results-driven professional specializing in managing and executing impactful marketing programs, digital campaigns and partner programs. My expertise spans marketing program management, marketing strategy, integrated marketing, partner marketing, and communications. I have a proven track record of consistently fostering strong relationships with peers, clients, and stakeholders through clear communication, team collaboration and alignment to achieve both departmental and organizational goals.",
+            "In my most recent roles, I drove the strategic alignment of data center and AI programs while prioritizing partner engagement opportunities in marketing activations and product launches. These efforts increased partner participation by 20% year over year. I led cross-functional projects to execute high-impact marketing initiatives—including content syndication, digital activations, and integrated digital campaigns for partners. By streamlining processes and optimizing engagement strategies such as partner launch playbooks and a digital partner resource hub, I helped enhance partner visibility and drove go to market readiness."
         ],
-        "para1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus. Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean.",
-        "para2": "Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Adipiscing bibendum est ultricies integer quis auctor elit. Id aliquet lectus proin nibh. Amet mauris commodo quis imperdiet massa tincidunt. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Pellentesque pulvinar pellentesque habitant morbi tristique senectus.",
+        "para1": "My proficiency in program and project management sets me apart as a dynamic and effective leader. I have a keen eye for detail and an exceptional skillset in managing project timelines while fostering a collaborative environment, where team members and peers are encouraged – and supported –  to contribute their best work. My personal approach is characterized by a commitment to excellence, continuous improvement, and a strategic approach to problem-solving.",
+        "para2": "Previously, as a marketing and communications manager and consultant, I played a key role in driving project operations and ensuring client satisfaction. I defined and communicated expectations and success criteria while managing timelines, dependencies, issue resolution, and asset delivery across internal teams, clients, and third-party partners. Additionally, I leveraged marketing automation platforms, analytics tools, and CRM systems such as Salesforce and HubSpot, to optimize campaign performance and deliver measurable business impact.",
         
         "bg_image": "./about/chart.jpg",
         "bg_image_alt": "Your Picture Here",
@@ -44,80 +46,70 @@
     "Leadership": {
         "title": "Skillset",
         "list_of_skills": [
-            "Project/Program Mgt. PMP",
-            "Agile/Scrum/ITIL-v4/Risk",
-            "Jira/Jira Align/Confluence",
-            "Waterfall Technique",
-
-            "MS Office Suite",
-            "PowerPoint",
-            "Clarity/Primavera P6",
-            "AWS Cloud & MS Azure",
-
-            "Decision-making/Conflict resolution",
-            "Manage Multiple Complex Projects",
-            "Excellent Communicator",
-            "Exceptional Team Leader/Player"
-        ],
-        "leadership_para_title": "Operational Excellence and Business Growth.",
-        "leadership_para": [
-            "Neque convallis a cras semper auctor neque vitae. Viverra accumsan in nisl nisi. Fermentum odio eu feugiat pretium nibh. Faucibus purus in massa tempor nec feugiat nisl pretium. Porttitor rhoncus dolor purus non enim praesent elementum facilisis leo. Pharetra et ultrices neque ornare aenean euismod."
+            "Client Management",
+            "Project Management", 
+            "Process Management",
+            "Problem Solving",
+            "Growth Mindset",
+            "Critical Thinking",
+            "Strategic Thinking",
+            "Process Improvement",
+            "Effective Communications",
+            "Adaptability", 
+            "Leadership",
+            "Teamwork",
+            "Emotional Intelligence",
+            "Creative Thinker",
+            "Solution Driven", 
+            "Interpersonal Relations",
+            "Editing Skills",
+            "Vendor Management",
+            "SharePoint",
+            "Microsoft Office 365"
         ]
     },
     "Skillset": {
         "title": "Specialization", 
-        "grid1_txt": "Electrical Engineering",
-        "grid2_txt": "Project Manager",
-        "grid3_txt": "Six Sigma Black Belt",
+        "grid1_txt": "Program Management",
+        "grid2_txt": "Project Management",
+        "grid3_txt": "Cross-Functional Collaboration",
 
-        "grid4_txt": "Scrum Fundamentals",
-        "grid5_txt": "PMP",
-        "grid6_txt": "CAPM",
+        "grid4_txt": "Integrated Marketing Strategy",
+        "grid5_txt": "Strategic Partnerships",
+        "grid6_txt": "Process Optimization",
 
-        "grid7_txt": "ITIL-V4",
-        "grid8_txt": "Risk-PMI",
-        "grid9_txt": "Service Management"
+        "grid7_txt": "Communications"
 
     },
     "Education": {
-        "title": "Education and Certifications.",
+        "title": "Education and Certifications",
         "data": [
             {
-                "img": "/school/school3.png",
+                "img": "/MoorheadLogo.png",
                 "img_alt": "",
-                "year": "UNIVERSITY OF PHEONIX",
-                "school": "UNIVERSITY OF PHEONIX",
-                "institutions": "",
+                "year": "",
+                "school": "Minnesota State University",
+                "institutions": "Minnesota State University",
                 "sub_text": "",
-                "degree": "Degree/Certificate",
-                "location": "",
+                "degree": "Bachelor of Science (B.S.) in Mass Communications",
+                "location": "Moorhead, Minnesota",
                 "link": ""
             },
+
             {
-                "img": "/school/school5.png",
+                "img": "/PMI.png",
                 "img_alt": "",
-                "year": "UNIVERSITY OF Chicago",
-                "school": "UNIVERSITY OF Chicago",
-                "institutions": "",
+                "year": "",
+                "school": "Project Management Institute",
+                "institutions": "Project Management Institute",
                 "sub_text": "",
-                "degree": "Degree/Certificate",
-                "location": "",
-                "link": ""
-            },
-            {
-                "img": "/school/shrm_logo.jpg",
-                "img_alt": "",
-                "year": "Certification Title",
-                "school": "Company",
-                "institutions": "Company",
-                "sub_text": "",
-                "degree": "Certification Title",
+                "degree": "Generative AI Overview for Project Managers",
                 "location": "",
                 "link": ""
             }
         ]
     },
     "Contact": {
-        "email": "yourname@email.com"
+        "email": "dianakboykin@gmail.com"
     }
 }
