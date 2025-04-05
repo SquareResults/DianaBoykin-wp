@@ -68,14 +68,13 @@ const AboutSection = () => {
                                 <div className={montserrat.className}>
                                     <div className={styles.whoami_body}>
                                         <div style={{textAlign: 'center', marginBottom: '15px'}}>
-                                            <img src="/about/portfolio.png" alt="about" width="60px" className={styles.whoami_icon}/>                                           
-                                           
+                                            <img src="/about/portfolio.png" alt="about" width="60px" className={styles.whoami_icon}/>
                                         </div>
-                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Power collaborator</p>
-                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Open communicator</p> 
-                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Tenacious & solution driven contributor</p>
-                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Trusted team resource</p>
-                                        <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Committed to excellence</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}}>Power collaborator</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}}>Open communicator</p> 
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}}>Tenacious & solution driven contributor</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}}>Trusted team resource</p>
+                                        <p style={{textAlign: 'center', lineHeight: 2.2}}>Committed to excellence</p>
                                     </div>
                                 </div>
                             </div>
