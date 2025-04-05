@@ -28,6 +28,7 @@ import ContactSection from './ContactSection';
 import FooterSection from './FooterSection';
 import AuthorSection from './AuthorSection';
 import clientData from './clientData.json';
+import RedBlackBoxes from './RedBlackBoxes';
 
 
 const PortfolioPage = () => {
@@ -55,6 +56,7 @@ const PortfolioPage = () => {
   // Refs for subsections
   const leadershipRef = useRef(null);
   const skillsetRef = useRef(null);
+  const RedBlackBoxesRef = useRef(null);
   const yearsRef = useRef(null);
   
   // const frameworkRefs = {
@@ -96,10 +98,11 @@ const PortfolioPage = () => {
       title: 'About',
       ref: aboutRef,
       subMenuItems: [
-        { id: 21, title: 'Leadership', ref: leadershipRef },
-        { id: 22, title: 'Skill Set', ref: skillsetRef },
-        { id: 23, title: 'Tools', ref: buildingteamsRef },
-        { id: 24, title: 'Management & Experience Summary', ref: buildingteamsRefs.managementsummaryRef },
+        { id: 21, title: 'Skill Set', ref: leadershipRef },
+        { id: 22, title: 'Specializations', ref: skillsetRef },
+        { id: 23, title: 'Achievements', ref: RedBlackBoxesRef },
+        { id: 24, title: 'Tools', ref: buildingteamsRef },
+        // { id: 24, title: 'Management & Experience Summary', ref: buildingteamsRefs.managementsummaryRef },
       ],
     },
     // {
@@ -221,7 +224,7 @@ const PortfolioPage = () => {
               <FaLinkedin />
           </a>
           </h1>
-          <h1>
+          {/* <h1>
           <a href={clientData.PortfolioPage.facebook} target="_blank" rel="noopener noreferrer">
               <FaFacebookSquare />
           </a>
@@ -235,7 +238,7 @@ const PortfolioPage = () => {
           <a href={clientData.PortfolioPage.twitter} target="_blank" rel="noopener noreferrer">
               <FaSquareXTwitter />
           </a>
-          </h1>
+          </h1> */}
         </div>
       </div>
       <div className={styles.menubutton} onClick={handleShowMenuButtonClick}>
@@ -256,6 +259,9 @@ const PortfolioPage = () => {
         </section>
         <section ref={yearsRef}>
           <CirclesSection/>
+        </section>
+        <section ref={RedBlackBoxesRef}>
+          <RedBlackBoxes refs={RedBlackBoxesRef}/>
         </section>
         <section ref={buildingteamsRef}>
           <BuildTeamSection refs={buildingteamsRefs}/>

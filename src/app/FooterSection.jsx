@@ -14,7 +14,7 @@ const FooterSection = () => {
         <div className={styles.footer}>
             <div>
                 <a href="https://theradarlist.com/" target="_blank" rel="noopener noreferrer">
-                    <img src='./transparent-red-txt.png' alt="TheRadarList Logo" width="40px" />
+                    <img src='/tools_logo/transparent-red-txt.png' alt="TheRadarList Logo" width="40px" />
                 </a>
             </div>
             <div className={`${styles.designed} ${montserrat.className}`}>
