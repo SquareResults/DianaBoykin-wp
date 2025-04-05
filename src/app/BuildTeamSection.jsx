@@ -30,43 +30,43 @@ const BuildTeamSection = ({refs}) => {
                 <div className={styles.gridContainer_tools}>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Office 365.png" width='58px'/>
+                            <img src="/tools_logo/Office 365.png" alt="Office" width='58px'/>
                         </div>
                         <div className={styles.title_tools}>Microsoft 365 Suite</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Excel logo.png" width='80px'/>
+                            <img src="/tools_logo/Excel logo.png" alt="Excel" width='80px'/>
                         </div>
                         <div className={styles.title_tools}>Excel</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Sharepoint logo.png" width='50px'/>
+                            <img src="/tools_logo/Sharepoint logo.png" alt="Sharepoint" width='50px'/>
                         </div>
                         <div className={styles.title_tools}>SharePoint</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Airtable.png" width='62px'/>
+                            <img src="/tools_logo/Airtable.png" alt="Airtable" width='62px'/>
                         </div>
                         <div className={styles.title_tools}>AirTable</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Smartsheetlogo.jpg" width='50px'/>
+                            <img src="/tools_logo/Smartsheetlogo.jpg" alt="Smartsheet" width='50px'/>
                         </div>
                         <div className={styles.title_tools}>Smartsheet</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/AdobeAcrobatlogo.png" width='50px'/>
+                            <img src="/tools_logo/AdobeAcrobatlogo.png" alt="Adobe" width='50px'/>
                         </div>
                         <div className={styles.title_tools}>Adobe Acrobat</div>
                     </div>
                     <div className={styles.gridItem_tools}>
                         <div className={styles.circle_icon}>
-                            <img src="/tools_logo/Gapps logo.png" width='60px'/>
+                            <img src="/tools_logo/Gapps logo.png" alt="Gapps" width='60px'/>
                         </div>
                         <div className={styles.title_tools}>Google Apps</div>
                     </div>

@@ -86,7 +86,7 @@
         "data": [
             {
                 "img": "/MoorheadLogo.png",
-                "img_alt": "",
+                "img_alt": "Moorhead",
                 "year": "",
                 "school": "Minnesota State University",
                 "institutions": "Minnesota State University",
@@ -98,7 +98,7 @@
 
             {
                 "img": "/PMI.png",
-                "img_alt": "",
+                "img_alt": "Project Management",
                 "year": "",
                 "school": "Project Management Institute",
                 "institutions": "Project Management Institute",

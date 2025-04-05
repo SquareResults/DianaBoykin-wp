@@ -68,7 +68,7 @@ const AboutSection = () => {
                                 <div className={montserrat.className}>
                                     <div className={styles.whoami_body}>
                                         <div style={{textAlign: 'center', marginBottom: '15px'}}>
-                                            <img src="/about/portfolio.png" width="60px" className={styles.whoami_icon}/>                                           
+                                            <img src="/about/portfolio.png" alt="about" width="60px" className={styles.whoami_icon}/>                                           
                                            
                                         </div>
                                         <p style={{textAlign: 'center', lineHeight: 2.2}} dangerouslySetInnerHTML={{ __html: clientData.About.whoami_box}}>Power collaborator</p>
@@ -87,13 +87,13 @@ const AboutSection = () => {
                     <div className={montserrat.className}>
                         <div className={styles.whoami_body}>
                             <div style={{ textAlign: 'center', marginTop: '-15px' }}>
-                                <img src="/outdoor.png" height="120px" length="120px" className={styles.whoami_icon} />
+                                <img src="/outdoor.png" alt="outdoor" height="120px" length="120px" className={styles.whoami_icon} />
                                 <p style={{ marginBottom: '10px' }}>Outdoor Enthusiast</p> {/* Adjusted margin-bottom */}
                                 <div></div>
-                                <img src="/Hiking 2.png" height="110px" length="110px" className={styles.whoami_icon} />
+                                <img src="/Hiking 2.png" alt="Hiking" height="110px" length="110px" className={styles.whoami_icon} />
                                 <p>Hiking Enthusiast</p>
                                 <div></div>
-                                <img src="/biking.png" height="100px" length="100px" className={styles.whoami_icon} />
+                                <img src="/biking.png" alt="biking" height="100px" length="100px" className={styles.whoami_icon} />
                                 <p>Biking Enthusiast</p>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ const AboutSection = () => {
                                   
                                         <div className={montserrat.className}>
                                         <div className={styles.body}>
-                                            <img src="/about/graduationcap.png" width="60px" className={styles.whoami_icon}/>
+                                            <img src="/about/graduationcap.png" alt="graduation" width="60px" className={styles.whoami_icon}/>
                                             <p style={{textAlign: 'center', lineHeight: 2.2}}>Development: To align my experience and skillset with opportunities that encompass my guiding principles and key values.</p>
                                             <p>Forge Relationships: Continually foster strong and trusted relationships with team members, peers and stakeholders.</p>
                                             <p>Empowerment: Empower myself and others to be the best version of themselves.</p>
