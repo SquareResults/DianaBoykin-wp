@@ -3,11 +3,13 @@ import React from 'react';
 import Image from 'next/image';
 import { Montserrat } from 'next/font/google'
 import styles from './aboutsection.module.css'
-// import { GrLineChart } from "react-icons/gr";
-// import { BsBoxSeam } from "react-icons/bs";
-// import { FaRegHandshake } from "react-icons/fa6";
-// import { FaEarthAmericas  } from "react-icons/fa6";
-// import { MdOutlineConnectWithoutContact } from "react-icons/md";
+import { GrLineChart } from "react-icons/gr";
+import { BsBoxSeam } from "react-icons/bs";
+import { FaRegHandshake } from "react-icons/fa6";
+import { FaEarthAmericas  } from "react-icons/fa6";
+import { MdOutlineConnectWithoutContact } from "react-icons/md";
+import { FaHandsHelping, FaBrain, FaUserShield, FaMedal, FaComments, FaLightbulb } from "react-icons/fa";
+import { GiStumpRegrowth, GiFlexibleStar, GiAchievement } from "react-icons/gi";
 import clientData from './clientData.json';
 import FadeInOnScroll from './FadeInOnScroll';
 
@@ -62,7 +64,39 @@ const AboutSection = () => {
             {/******** WHO AM I SECTION **********/}
             <div className={styles.whoami}>
                 <div className={styles.gridContainer}>
-                        <div className={styles.gridItem_a}>
+                <div className={styles.gridItem_a}>
+                            <div className={styles.whoami_box}>
+                                <h1 className={styles.section_title}><span className='redfont'>Who</span> am i?</h1>
+                                <div className={montserrat.className}>
+                                    <div className={styles.whoami_body} style={{textAlign: 'center'}}>
+                                        {/* <p>Key words to describe me:</p> */}
+                                        <div style={{marginBottom: '15px'}}>
+                                            <FaHandsHelping  style={{fontSize: '40px', color: 'darkgrey'}} />
+                                            <p style={{textTransform: "uppercase"}}>Power Collaborator</p>
+                                        </div>
+                                        <div style={{marginBottom: '15px'}}>
+                                            <FaComments style={{fontSize: '40px', color: 'darkgrey'}} />
+                                            <p style={{textTransform: "uppercase"}}>Open Communicator</p>
+                                        </div>
+                                        <div style={{marginBottom: '15px'}}>
+                                            <GiStumpRegrowth style={{fontSize: '40px', color: 'darkgrey'}} />
+                                            <p style={{textTransform: "uppercase"}}>Tenacious & solution driven contributor</p>
+                                        </div>
+                                        <div style={{marginBottom: '15px'}}>
+                                            <FaUserShield style={{fontSize: '40px', color: 'darkgrey'}} />
+                                            <p style={{textTransform: "uppercase"}}>Trusted team resource</p>
+                                        </div>
+                                        <div style={{marginBottom: '15px'}}>
+                                            <FaBrain style={{fontSize: '40px', color: 'darkgrey'}} />
+                                            <p style={{textTransform: "uppercase"}}>Adaptable Innovator</p>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        {/* <div className={styles.gridItem_a}>
                             <div className={styles.whoami_box}>
                                 <h1 className={styles.section_title}><span className='redfont'>Who</span> am i?</h1>
                                 <div className={montserrat.className}>
@@ -78,7 +112,7 @@ const AboutSection = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
             <div className={styles.gridItem}>
                 <div className={styles.whoami_box}>

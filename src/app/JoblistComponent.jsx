@@ -59,11 +59,11 @@ const JoblistComponent = () => {
             listofskills: ["", ""]
         },
         {
-            img_logo: "/TN.jpg",
-            img_alt: "TN",
+            img_logo: "",
+            img_alt: "",
             img_style:  '{"paddingTop": "5%"}',
             jobtitle: "Marketing Consultant, Project Management",
-            company: "Self-Employed, TN Marketing",
+            company: "Self-Employed",
             dates: "March 2017 - December 2019",
             job_description: [
                 `Drove project management operations and ensured client satisfaction by defining and communicating expectations and success criteria while managing timelines, dependencies, issue resolution, and asset delivery across internal teams, clients, and third-party partners.`,
@@ -104,8 +104,8 @@ const JoblistComponent = () => {
             job_description: [
                 `Managed all marketing programs, special projects, industry events and web-related initiatives to drive audience engagement and increase brand visibility.`,
                 `Managed the successful launch of an online product knowledge base and sales training hub, increasing accessibility to critical resources.`,
-                `Led the re-launch of a dealer portal and company intranet, improving user experience and engagement within one year.`,
-                `Drove project completion and rollout of company’s rebranding through a newly designed website and marketing and sales materials.`
+                `Led the re-launch of a dealer portal and company intranet, boosting active user adoption by 40% within one year.`,
+                `Launched rebranded website, driving a 25% increase in session duration through UX improvements.`
             ],
             skillset: "no",
             skill_title: "",
